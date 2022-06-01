@@ -26,18 +26,18 @@ exemple :
 
 
 function theaterSieges() {
-  const columnArray = [];
-  for (let i = 0; i <= 26; i++) {
-      columnArray.push(i);
-  }
-  console.log(columnArray);
+  const res = [];
+  for (let i = 1; i <= 26; i++) {
+    const lineArray = [];
+    for (let j = 1; j <= 100; j++) {
+      lineArray.push(i + "-" + j);
+    }
 
-  const lineArray = [];
-  for (let j = 0; j <= 100; j++) {
-      lineArray.push(j);
+  res.push(lineArray);
   }
-  console.log(lineArray);
 
+
+return res;
 }
 
 console.log(theaterSieges());
