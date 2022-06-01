@@ -23,6 +23,13 @@
   text-align: center;
 }
 
+.id-btn{
+  padding: 15px;
+  background-color: pink;
+  border: 1px solid grey;
+  border-radius: 10px;
+  color: white;
+}
 .desktop {
   margin: 80px 0 -5px 0;
 }
