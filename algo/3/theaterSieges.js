@@ -17,10 +17,30 @@ exemple :
 ] 
 */
 
+/* 
+1- je crée mon tableau colonnes, je le boucle pour qu'il s'incrémente de  à 26
+2- idem pour le tableau rangées
+3- une boucle qui s'incrémente de i+1 et de j+1 à chaque tour et là, c'est le drame ... 
+    
+*/
+
+
 function theaterSieges() {
-  // Your code here !
+  const columnArray = [];
+  for (let i = 0; i <= 26; i++) {
+      columnArray.push(i);
+  }
+  console.log(columnArray);
+
+  const lineArray = [];
+  for (let j = 0; j <= 100; j++) {
+      lineArray.push(j);
+  }
+  console.log(lineArray);
+
 }
 
 console.log(theaterSieges());
+
 
 module.exports = theaterSieges;
