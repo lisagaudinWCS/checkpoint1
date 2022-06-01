@@ -1,6 +1,6 @@
 /*
 Voici un tableau de personnes.
-Tu dois écire le code de la fonction findAdult, qui renvoie un
+Tu dois écRire le code de la fonction findAdult, qui renvoie un
 nouveau tableau avec 2 tableaux à l'intérieur: 
 - Le premier avec uniquement les femmes adultes.
 - Le deuxième avec uniquement les hommes adultes.

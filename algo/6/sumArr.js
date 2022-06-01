@@ -11,7 +11,7 @@ sumArr( ["2", "7", "3", "8", "2"], ["2", "4", "9"] ) doit renvoyer ["4", "11", "
 */
 
 function sumArr(arrayA, arrayB) {
-  // Your code here !
+  const result = arrayA.map((val, i) => val + arrayB[i] );
 }
 
 module.exports = sumArr;
